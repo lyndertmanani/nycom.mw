@@ -1,4 +1,4 @@
-# National Youth Council of Malawi Website 🌟
+# National Youth Council of Malawi Website 
 
 <div align="center">
 
@@ -15,7 +15,7 @@ Welcome to the official repository of the National Youth Council of Malawi (NYCO
 
 </div>
 
-## ✨ Features
+##  Features
 
 - 📱 **Responsive Design** - Seamless experience across all devices
 - 🎨 **Modern UI** - Sleek interfaces built with NextUI
