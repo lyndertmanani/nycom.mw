@@ -1,0 +1,26 @@
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+import BaseLayout from "@/layout/layout";
+import Home from "@/pages/home";
+ 
+// import Landing from "@/pages/landing"
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<BaseLayout />}>
+      <Route index element={<Home/>} />
+      <Route path="home" element={<Home />} />
+      
+      {/* <Route path='*' element={<Render errorType="notFoundError"/>}/> */}
+    </Route>
+  )
+);
+
+function App() {
+  return <RouterProvider router={router} />;
+}
+
+export default App;
