@@ -35,7 +35,7 @@ Before you begin, ensure you have installed:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/nycom-official/nycom_web.git
+git@github.com:lyndertmanani/Nycom_website.git
 cd nycom_web
 ```
 
