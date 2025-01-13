@@ -1,4 +1,5 @@
 import { nextui } from "@nextui-org/react";
+import daisyui from "daisyui";
 
 /** @type {import('tailwindcss').Config} */
 const config = {
@@ -13,14 +14,12 @@ const config = {
   theme: {
     extend: {
       colors: {
-        'nycom-blue': '#e0c069',
+        "nycom-blue": "#1c2a7e",
       },
     },
   },
   darkMode: "class",
-  plugins: [
-    nextui()
-  ]
+  plugins: [nextui(), daisyui],
 };
 
 export default config;

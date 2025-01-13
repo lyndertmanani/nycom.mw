@@ -1,5 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
-import NavBar from "@/components/menu/navigation";
+import NavBar from "@/components/menu/nav/navigation";
 import Footer from "@/components/menu/footer";
  
 // import MomentumScroll from "../components/smoothscroll/smoothscroll";
