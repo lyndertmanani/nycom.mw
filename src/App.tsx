@@ -6,6 +6,8 @@ import {
 } from "react-router-dom";
 import BaseLayout from "@/layout/layout";
 import Home from "@/pages/home";
+import News from "@/pages/news";
+import Events from '@/pages/events'
  
 // import Landing from "@/pages/landing"
 const router = createBrowserRouter(
@@ -13,7 +15,8 @@ const router = createBrowserRouter(
     <Route path="/" element={<BaseLayout />}>
       <Route index element={<Home/>} />
       <Route path="home" element={<Home />} />
-      
+      <Route path="News" element={<News />} />
+      <Route path="events" element={<Events />} />
       {/* <Route path='*' element={<Render errorType="notFoundError"/>}/> */}
     </Route>
   )

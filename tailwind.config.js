@@ -15,6 +15,7 @@ const config = {
     extend: {
       colors: {
         "nycom-blue": "#1c2a7e",
+        "nycom-gray": "#1c2a7e",
       },
     },
   },
