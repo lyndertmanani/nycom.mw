@@ -28,13 +28,13 @@ const Timeline = () => {
           {' '}
           <TimelineContent animationNum={1} timelineRef={heroRef}>
             <h1 className=' text-2xl lg:text-5xl font-bold tracking-tight text-gray-950]'>
-              Why you need to start it?
+              Why you need to start it...?
             </h1>
           </TimelineContent>
           <TimelineContent animationNum={2} timelineRef={heroRef}>
             <p className='text-xl leading-[110%]'>
               There's no valid reason, I just need more star in my repo, please
-              do it guys 
+              do it guys...
             </p>
           </TimelineContent>
         </div>
