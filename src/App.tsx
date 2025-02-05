@@ -7,7 +7,8 @@ import {
 import BaseLayout from "@/layout/layout";
 import Home from "@/pages/home";
 import News from "@/pages/news";
-import Events from '@/pages/events'
+import Events from '@/pages/events';
+import About from '@/pages/About'
  
 // import Landing from "@/pages/landing"
 const router = createBrowserRouter(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route path="home" element={<Home />} />
       <Route path="News" element={<News />} />
       <Route path="events" element={<Events />} />
+      <Route path="about" element={<About />} />
       {/* <Route path='*' element={<Render errorType="notFoundError"/>}/> */}
     </Route>
   )
