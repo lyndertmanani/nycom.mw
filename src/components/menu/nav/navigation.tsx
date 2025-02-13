@@ -8,7 +8,7 @@ import {
   NavbarMenuItem,
   NavbarMenuToggle,
 
-} from "@nextui-org/react";
+} from "@heroui/react";
 import React from "react";
 import { navLinks } from "./date"
 import { NavLink } from "react-router-dom";
@@ -35,14 +35,7 @@ export default function App() {
           </NavbarItem>
         ))}
       </NavbarContent>
-
-      {/* <NavbarContent className=" " justify="end">
-          <NavbarItem>
-           <NavLink className=" border text-purple-900  border-purple-800 hover:text-purple-800 hover:border-purple-800 duration-700 rounded-none  py-[5px] px-4 font-medium" to="contact">
-           Contact Us
-           </NavLink>
-         </NavbarItem>
-       </NavbarContent> */}
+ 
        <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"

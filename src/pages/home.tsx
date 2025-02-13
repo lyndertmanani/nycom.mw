@@ -1,13 +1,14 @@
 
 import Hero from '../components/home/slideshow/slide';
 import { NavLink } from "react-router-dom";
-import { Divider } from "@nextui-org/react";
+import { Divider } from "@heroui/react";
 import Mission from '@/components/home/mission/mission';
 import Pillars from '@/components/home/pillars/pillars';
-import Timeline from '@/components/home/guide/gride';
+import Timeline from '@/components/home/guide_rex/gride';
+ 
 // import TextMarquee from '@/components/home/textscroll/text.marquee';
-import Project_Render from '@/components/home/project/render';
-
+// import Project_Render from '@/components/home/project/render';
+import Number from '@/components/home/number_count/numbers';
 
 const Home = () => {
   
@@ -30,14 +31,18 @@ const Home = () => {
             <div className="px-10"><Divider className="px-20 " /></div>
             <section className=" px-6 lg:px-24 py-10" >
                 < Mission />
-                < Project_Render/>
-                <Timeline />
             </section>
-            
+             <Number />
+            <section className=" px-6 lg:px-24 py-10" >
+            {/* < Project_Render/> */}
+            <Timeline />
+            </section>
+           
             {/* text scroll */}
             {/* <TextMarquee /> */}
            
-            <Pillars/>
+            <Pillars />
+           
             <section className=" px-6 lg:px-24 py-0" >
             
                 </section>
@@ -45,3 +50,5 @@ const Home = () => {
     )
 }
 export default Home
+
+            

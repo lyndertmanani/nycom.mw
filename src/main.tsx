@@ -1,7 +1,7 @@
 // main.tsx or main.jsx
 import React  from "react";
 import ReactDOM from "react-dom/client";
-import { NextUIProvider } from "@nextui-org/react";
+import { HeroUIProvider } from "@heroui/react";
 import App from "./App";
 import "@/css/index.css";
 // import AOS from 'aos';
@@ -25,11 +25,11 @@ const rootElement = document.getElementById("root");
 if (rootElement !== null) {
   ReactDOM.createRoot(rootElement).render(
     <React.StrictMode>
-      <NextUIProvider  >
+      <HeroUIProvider  >
         <main className="  text-black bg-white">
             <App />
           </main>
-      </NextUIProvider>
+      </HeroUIProvider>
     </React.StrictMode>
   );
 }
