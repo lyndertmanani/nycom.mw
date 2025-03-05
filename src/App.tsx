@@ -9,12 +9,12 @@ import Home from "@/pages/home";
 import News from "@/pages/news";
 import Events from '@/pages/events';
 import About from '@/pages/About'
- 
+import Maintaince from "@/pages/maintaince";
 // import Landing from "@/pages/landing"
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<BaseLayout />}>
-      <Route index element={<Home/>} />
+      <Route index element={<Maintaince/>} />
       <Route path="home" element={<Home />} />
       <Route path="News" element={<News />} />
       <Route path="events" element={<Events />} />
