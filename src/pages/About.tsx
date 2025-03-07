@@ -310,7 +310,7 @@ export default function AboutUs() {
                     <div className="grid md:grid-cols-3 gap-8">
                         {/* Affiliates */}
                         <Card className="border border-gray-200 overflow-hidden">
-                            <div className="h-3 bg-purple-600"></div>
+                        
                             <CardHeader className="pb-0 pt-6">
                                 <h3 className="text-xl font-semibold text-gray-800 flex items-center">
                                     <Users className="mr-2 h-5 w-5 text-purple-600" />
@@ -341,20 +341,22 @@ export default function AboutUs() {
                                         <span>Projects (past or present)</span>
                                     </li>
                                 </ul>
-                                <Tooltip content="View all requirements">
+                                {/* <Tooltip content="View all requirements">
                                     <Button color="primary" variant="light" className="mt-2 w-full">
                                         View All Requirements
                                     </Button>
-                                </Tooltip>
-                                <Button color="primary" className="mt-4 w-full shadow-sm">
+                                </Tooltip> */}
+                                <Tooltip content="Online Applications are disabled for now" className="bg-black/30 backdrop-blur-sm text-gray-700">
+                                <Button   className="mt-4 w-full shadow-sm text-gray-600 "  >
                                     Apply for Affiliation
                                 </Button>
+                                </Tooltip>
                             </CardBody>
                         </Card>
 
                         {/* Partnership */}
                         <Card className="border border-gray-200 overflow-hidden">
-                            <div className="h-3 bg-blue-600"></div>
+                            {/* <div className="h-3 bg-blue-600"></div> */}
                             <CardHeader className="pb-0 pt-6">
                                 <h3 className="text-xl font-semibold text-gray-800 flex items-center">
                                     <ExternalLink className="mr-2 h-5 w-5 text-blue-600" />
@@ -372,19 +374,19 @@ export default function AboutUs() {
                                 </p>
                                 <div className="flex items-center mt-6 bg-blue-50 p-3 rounded-lg">
                                     <Mail className="h-5 w-5 text-blue-600 mr-2" />
-                                    <a href="mailto:partnerships@nycom.mw" className="text-blue-600 hover:underline">
-                                        partnerships@nycom.mw
+                                    <a href="mailto:info@nycom.mw" className="text-blue-600 hover:underline">
+                                        info@nycom.mw
                                     </a>
                                 </div>
-                                <Button color="primary" className="mt-4 w-full shadow-sm">
+                                {/* <Button color="primary" className="mt-4 w-full shadow-sm">
                                     Explore Partnership
-                                </Button>
+                                </Button> */}
                             </CardBody>
                         </Card>
 
                         {/* Volunteer */}
                         <Card className="border border-gray-200 overflow-hidden">
-                            <div className="h-3 bg-green-600"></div>
+                            {/* <div className="h-3 bg-green-600"></div> */}
                             <CardHeader className="pb-0 pt-6">
                                 <h3 className="text-xl font-semibold text-gray-800 flex items-center">
                                     <Award className="mr-2 h-5 w-5 text-green-600" />
@@ -408,28 +410,30 @@ export default function AboutUs() {
                                 {isVolunteerFormOpen && (
                                     <div className="mt-4 space-y-4 p-4 bg-gray-50 rounded-lg">
                                         <Input
-                                            label="Full Name"
+                                            // label="Full Name"
                                             placeholder="Enter your full name"
                                             variant="bordered"
                                             labelPlacement="outside"
                                         />
                                         <Input
-                                            label="Email"
+                                            // label="Email"
                                             placeholder="Enter your email"
                                             type="email"
                                             variant="bordered"
                                             labelPlacement="outside"
                                         />
                                         <Textarea
-                                            label="Message"
+                                            // label="Message"
                                             placeholder="Tell us about your skills and how you'd like to contribute"
                                             variant="bordered"
                                             labelPlacement="outside"
                                             minRows={3}
                                         />
-                                        <Button color="success" className="w-full shadow-sm">
+                                          <Tooltip content="Online Applications are disabled for now" className="bg-black/50 backdrop-blur-md text-white">
+                                        <Button   className="w-full shadow-sm">
                                             Submit Application
                                         </Button>
+                                        </Tooltip>
                                     </div>
                                 )}
                             </CardBody>
@@ -438,7 +442,7 @@ export default function AboutUs() {
                 </section>
 
                 {/* Latest News & Announcements */}
-                <section className="mb-16">
+                {/* <section className="mb-16">
                     <div className="flex items-center mb-8 overflow-hidden">
                         <div className="bg-yellow-600 h-8 w-2 mr-4 rounded"></div>
                         <h2 className="text-3xl font-bold text-gray-800">Latest News & Announcements</h2>
@@ -508,7 +512,7 @@ export default function AboutUs() {
                             View All News & Announcements
                         </Button>
                     </div>
-                </section>
+                </section> */}
             </div>
 
 
