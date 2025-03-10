@@ -14,10 +14,10 @@ import Maintaince from "@/pages/maintaince";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<BaseLayout />}>
-      <Route index element={<Maintaince/>} />
+      <Route index element={<Home/>} />
       <Route path="home" element={<Home />} />
-      <Route path="News" element={<News />} />
-      <Route path="events" element={<Events />} />
+      <Route path="News" element={<Maintaince />} />
+      <Route path="events" element={<Maintaince />} />
       <Route path="about" element={<About />} />
       {/* <Route path='*' element={<Render errorType="notFoundError"/>}/> */}
     </Route>
