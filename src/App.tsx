@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 import BaseLayout from "@/layout/layout";
 import Home from "@/pages/home";
-import News from "@/pages/news";
-import Events from '@/pages/events';
+// import News from "@/pages/news";
+// import Events from '@/pages/events';
 import About from '@/pages/About'
 import Maintaince from "@/pages/maintaince";
 // import Landing from "@/pages/landing"
