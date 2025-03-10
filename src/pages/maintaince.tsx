@@ -9,9 +9,10 @@ const Maintenance = () => {
             </div>
             
             {/* Maintenance Message */}
-            <h1 className="text-7xl font-bold text-gray-950">We'll Be Back Soon!</h1>
+            <h1 className="text-7xl font-bold text-gray-950">Oops!<br/> Page under  maintenance.</h1>
+{/*             <h1 className="text-7xl font-bold text-gray-950">We'll Be Back Soon!</h1> */}
             <p className="text-gray-600 mt-2 max-w-md">
-                Our website is currently undergoing scheduled maintenance. We appreciate your patience and will be back online shortly.
+                Our website is currently undergoing scheduled maintenance. We appreciate your patience and will be back shortly.
             </p>
             
             {/* Refresh Suggestion */}
