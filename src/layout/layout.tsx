@@ -8,7 +8,7 @@ const BaseLayout = () => {
   const location = useLocation();
   const isloginPage = location.pathname.includes("/login");
   const isSignupPage = location.pathname.includes("/signup");
-  const isEventPage = location.pathname.includes("/event");
+  // const isEventPage = location.pathname.includes("/event");
   const isAwardPage = location.pathname.includes("/Awards");
   const isAdminPage = location.pathname.includes("admin/dashboard");
   const isAdmindashPage = location.pathname.includes("admin");
@@ -26,7 +26,7 @@ const BaseLayout = () => {
           <Outlet />
         </main>
        
-        {!isEventPage && !isAwardPage && !isAdminPage && !isAdmindashPage && !isAdminAccountPage && !is404Page && !isloginPage&& <Footer />}
+        {  !isAwardPage && !isAdminPage && !isAdmindashPage && !isAdminAccountPage && !is404Page && !isloginPage&& <Footer />}
         {/* </MomentumScroll> */}
     </>
   );

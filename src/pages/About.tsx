@@ -21,15 +21,15 @@ export default function AboutUs() {
     return (
         <div className="min-h-screen ">
             {/* Hero Section with Flag Colors and Coat of Arms */}
-            <div className="relative bg-nycom-blue text-white overflow-hidden">
+            <div className="relative bg-nycom-blue h-[600px] text-white overflow-hidden">
                 <div className="absolute inset-0 bg-black/30 z-10"></div>
                 <img src="/wing.png" alt=""  className="absolute opacity-15"/>
              
                 {/* hero section */}
-                <div className="container mx-auto px-4 py-24 md:py-40 relative z-20">
+                <div className="container mx-auto px-20 pt-10   relative z-20">
                     <div className="max-w-4xl">
                     
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight">
+                        <h1 className="text-4xl md:text-6xl  lg:text-7xl font-bold mb-4 leading-tight">
                             {/* Government Seal/Emblem Placeholder */}
                             <div className="h-16 w-16 lg:h-32 lg:w-32 relative">
                                 <img
@@ -72,17 +72,17 @@ export default function AboutUs() {
             </div>
 
             {/* Quick Stats Banner */}
-            <div className="bg-white shadow-sm relative z-10">
+            <div className="bg-white shadow-sm relative  px-20  z-10">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-8 -mt-6 md:-mt-12">
                         <Card className="shadow-none rounded-none">
                             <CardBody className="flex flex-row items-center gap-4 p-4">
                                 <div className="bg-blue-100 p-3 rounded-full">
-                                    <Users className="text-gray-600 h-6 w-6" />
+                                    <Users className="text-nycom-blue h-6 w-6" />
                                 </div>
                                 <div>
                                     <p className="text-3xl font-bold text-gray-800">200+</p>
-                                    <p className="text-gray-600">Youth Organizations</p>
+                                    <p className="text-nycom-blue">Youth Organizations</p>
                                 </div>
                             </CardBody>
                         </Card>
@@ -90,7 +90,7 @@ export default function AboutUs() {
                         <Card className="shadow-none rounded-none">
                             <CardBody className="flex flex-row items-center gap-4 p-4">
                                 <div className="bg-blue-100 p-3 rounded-full">
-                                    <Calendar className="text-gray-600 h-6 w-6" />
+                                    <Calendar className="text-nycom-blue h-6 w-6" />
                                 </div>
                                 <div>
                                     <p className="text-3xl font-bold text-gray-800">{new Date().getFullYear() - 1996}</p>
@@ -102,7 +102,7 @@ export default function AboutUs() {
                         <Card className="shadow-none rounded-none">
                             <CardBody className="flex flex-row items-center gap-4 p-4">
                                 <div className="bg-blue-100 p-3 rounded-full">
-                                    <Award className="text-gray-600 h-6 w-6" />
+                                    <Award className="text-nycom-blue h-6 w-6" />
                                 </div>
                                 <div>
                                     <p className="text-3xl font-bold text-gray-800">100K+</p>
@@ -115,7 +115,7 @@ export default function AboutUs() {
             </div>
 
             {/* Main Content */}
-            <div className="container mx-auto px-4 py-12">
+            <div className="container mx-auto  px-20 py-12">
                 {/* Who We Are Section */}
                 <section className="mb-20">
                     <div className="flex items-center mb-2">
@@ -183,8 +183,8 @@ export default function AboutUs() {
                             <Card className="border border-gray-200 shadow-none">
                                 <CardBody>
                                     <div className="flex items-center gap-4">
-                                        <div className="bg-gray-100 p-4 rounded-full">
-                                            <Users className="text-gray-600 h-8 w-8" />
+                                        <div className="bg-blue-100 p-4 rounded-full">
+                                            <Users className="text-nycom-blue h-8 w-8" />
                                         </div>
                                         <div>
                                             <h4 className="text-lg font-semibold">Organizational Structure</h4>
@@ -232,8 +232,8 @@ export default function AboutUs() {
                         <CardBody className="p-6 shadow-none">
                             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                                 <div className="bg-white p-5 rounded-lg border border-gray-100  shadow-none hover:shadow-sm transition-shadow">
-                                    <div className="bg-red-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                                        <ChevronRight className="text-red-600 h-6 w-6" />
+                                    <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                                        <ChevronRight className="text-blue-600 h-6 w-6" />
                                     </div>
                                     <h4 className="font-semibold text-gray-800 mb-2">Policy Implementation</h4>
                                     <p className="text-gray-600 text-sm">
@@ -254,8 +254,8 @@ export default function AboutUs() {
                                 </div>
 
                                 <div className="bg-white p-5 rounded-lg border border-gray-100  shadow-none hover:shadow-sm transition-shadow">
-                                    <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                                        <ChevronRight className="text-green-600 h-6 w-6" />
+                                    <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                                        <ChevronRight className="text-blue-600 h-6 w-6" />
                                     </div>
                                     <h4 className="font-semibold text-gray-800 mb-2">Youth Advocacy</h4>
                                     <p className="text-gray-600 text-sm">
@@ -265,8 +265,8 @@ export default function AboutUs() {
                                 </div>
 
                                 <div className="bg-white p-5 rounded-lg border border-gray-100  shadow-none hover:shadow-sm transition-shadow">
-                                    <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                                        <ChevronRight className="text-purple-600 h-6 w-6" />
+                                    <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                                        <ChevronRight className="text-blue-600 h-6 w-6" />
                                     </div>
                                     <h4 className="font-semibold text-gray-800 mb-2">Promotion</h4>
                                     <p className="text-gray-600 text-sm">
@@ -275,8 +275,8 @@ export default function AboutUs() {
                                 </div>
 
                                 <div className="bg-white p-5 rounded-lg border border-gray-100  shadow-none hover:shadow-sm transition-shadow">
-                                    <div className="bg-yellow-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                                        <ChevronRight className="text-yellow-600 h-6 w-6" />
+                                    <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                                        <ChevronRight className="text-blue-600 h-6 w-6" />
                                     </div>
                                     <h4 className="font-semibold text-gray-800 mb-2">Coordination</h4>
                                     <p className="text-gray-600 text-sm">
@@ -286,8 +286,8 @@ export default function AboutUs() {
                                 </div>
 
                                 <div className="bg-white p-5 rounded-lg border border-gray-100  shadow-none hover:shadow-sm transition-shadow">
-                                    <div className="bg-teal-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                                        <ChevronRight className="text-teal-600 h-6 w-6" />
+                                    <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                                        <ChevronRight className="text-blue-600 h-6 w-6" />
                                     </div>
                                     <h4 className="font-semibold text-gray-800 mb-2">Regulation</h4>
                                     <p className="text-gray-600 text-sm">
@@ -302,7 +302,7 @@ export default function AboutUs() {
                 {/* How to Get Involved Section */}
                 <section className="mb-16">
                     <div className="flex items-center mb-8">
-                        <div className="bg-green-600 h-8 w-2 mr-4 rounded"></div>
+                        <div className="bg-green-600 h-8 w-1 mr-4 rounded"></div>
                         <h2 className="text-3xl font-bold text-gray-800">How to Get Involved</h2>
                         <Divider className="w-80 ml-4 flex-grow hidden lg:flex " />
                     </div>
